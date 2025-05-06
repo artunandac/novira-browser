@@ -1,0 +1,25 @@
+2025-05-07 00:16:01,263 | WARNING | JS Console [Error] in https://duckduckgo.com/_next/static/chunks/main-6185e562568e6345.js:1 → Refused to prefetch content from 'https://duckduckgo.com/_next/static/chunks/4585-9ee1844dc3fcfb83.js' because it violates the following Content Security Policy directive: "default-src 'none' ". Note that 'prefetch-src' was not explicitly set, so 'default-src' is used as a fallback.
+
+2025-05-07 00:16:01,263 | WARNING | JS Console [Error] in https://duckduckgo.com/_next/static/chunks/main-6185e562568e6345.js:1 → Refused to prefetch content from 'https://duckduckgo.com/_next/static/chunks/pages/about-bea36d7fb357ae3d.js' because it violates the following Content Security Policy directive: "default-src 'none' ". Note that 'prefetch-src' was not explicitly set, so 'default-src' is used as a fallback.
+
+2025-05-07 00:16:09,038 | WARNING | JS Console [Error] in https://duckduckgo.com/dist/wpm.main.49fc65ebbf82f57c0631.js:1 → Refused to prefetch content from 'https://duckduckgo.com/dist/wpm.3359.0c3e0fbf9f8cff52c9ab.js' because it violates the following Content Security Policy directive: "default-src 'none' ". Note that 'prefetch-src' was not explicitly set, so 'default-src' is used as a fallback.
+
+2025-05-07 00:16:09,038 | WARNING | JS Console [Error] in https://duckduckgo.com/dist/wpm.main.49fc65ebbf82f57c0631.js:1 → Refused to prefetch content from 'https://duckduckgo.com/dist/wpm.1619.ea48354a2359f567744b.js' because it violates the following Content Security Policy directive: "default-src 'none' ". Note that 'prefetch-src' was not explicitly set, so 'default-src' is used as a fallback.
+
+2025-05-07 00:16:09,038 | WARNING | JS Console [Error] in https://duckduckgo.com/dist/wpm.main.49fc65ebbf82f57c0631.js:1 → Refused to prefetch content from 'https://duckduckgo.com/dist/wpm.2748.5d1a861674d9b153e3af.js' because it violates the following Content Security Policy directive: "default-src 'none' ". Note that 'prefetch-src' was not explicitly set, so 'default-src' is used as a fallback.
+
+2025-05-07 00:16:09,039 | WARNING | JS Console [Error] in https://duckduckgo.com/dist/wpm.main.49fc65ebbf82f57c0631.js:1 → Refused to prefetch content from 'https://duckduckgo.com/dist/wpm.chat.e75e0747a60155f9d1ea.js' because it violates the following Content Security Policy directive: "default-src 'none' ". Note that 'prefetch-src' was not explicitly set, so 'default-src' is used as a fallback.
+
+2025-05-07 00:16:09,039 | WARNING | JS Console [Error] in https://duckduckgo.com/dist/wpm.main.49fc65ebbf82f57c0631.js:1 → Refused to prefetch content from 'https://duckduckgo.com/dist/wpm.images-vertical.861ed815e070d1063ef4.js' because it violates the following Content Security Policy directive: "default-src 'none' ". Note that 'prefetch-src' was not explicitly set, so 'default-src' is used as a fallback.
+
+2025-05-07 00:16:09,039 | WARNING | JS Console [Error] in https://duckduckgo.com/dist/wpm.main.49fc65ebbf82f57c0631.js:1 → Refused to prefetch content from 'https://duckduckgo.com/dist/wpm.shopping-vertical.f7fba9ffe18c66a86d50.js' because it violates the following Content Security Policy directive: "default-src 'none' ". Note that 'prefetch-src' was not explicitly set, so 'default-src' is used as a fallback.
+
+2025-05-07 00:16:13,915 | WARNING | JS Console [Info] in https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.vAn3DADFU-I.es5.O/d=0/br=1/rs=AGKMywG-rHD18OWTr6RXlMPqZxijbj_HLA:9593 → LegacyDataMixin will be applied to all legacy elements.
+Set `_legacyUndefinedCheck: true` on element class to enable.
+2025-05-07 00:16:18,424 | WARNING | JS Console [Warning] in https://www.youtube.com/:0 → The resource https://i.ytimg.com/generate_204 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+2025-05-07 00:17:28,869 | WARNING | JS Console [Info] in https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.vAn3DADFU-I.es5.O/d=0/br=1/rs=AGKMywG-rHD18OWTr6RXlMPqZxijbj_HLA:9593 → LegacyDataMixin will be applied to all legacy elements.
+Set `_legacyUndefinedCheck: true` on element class to enable.
+2025-05-07 00:17:32,300 | WARNING | JS Console [Warning] in https://www.youtube.com/:0 → The resource https://i.ytimg.com/generate_204 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+2025-05-07 00:18:20,707 | WARNING | JS Console [Info] in https://www.savunmatr.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1:2 → JQMIGRATE: Migrate is installed, version 3.4.1
+2025-05-07 00:18:21,059 | WARNING | JS Console [Info] in https://www.savunmatr.com/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js?ver=1741594199:1 → opt-in
+2025-05-07 00:18:21,541 | WARNING | JS Console [Info] in https://www.savunmatr.com/wp-content/plugins/advanced-ads/public/assets/js/advanced.min.js?ver=1.56.3:1 → [object Object]
