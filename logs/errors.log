@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/media/artun/Yeni Birim/python/novira/main.py", line 16, in <module>
+    sys.exit(app.exec_())
+             ^^^^^^^^^^^
+KeyboardInterrupt
