@@ -1,0 +1,10 @@
+# Sanal ortam ve önbellek
+venv/
+__pycache__/
+*.pyc
+
+# Log dosyaları
+*.log
+
+# Ayarlar (kullanıcıya özel)
+config/settings.json
