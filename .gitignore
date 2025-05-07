@@ -8,3 +8,15 @@ __pycache__/
 
 # Ayarlar (kullanıcıya özel)
 config/settings.json
+
+
+venv/
+*/venv/
+__pycache__/
+*.pyc
+*.pyd
+*.so
+*.log
+*.db
+config/settings.json
+
