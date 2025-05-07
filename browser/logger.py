@@ -2,29 +2,26 @@ import logging
 import os
 from datetime import datetime
 
-# Log klasörü yoksa oluştur
-log_dir = os.path.join(os.path.dirname(__file__), "..", "logs")
-os.makedirs(log_dir, exist_ok=True)
+def create_logger(name, log_filename, level=logging.DEBUG):
+    log_dir = os.path.join(os.path.dirname(__file__), "..", "logs")
+    os.makedirs(log_dir, exist_ok=True)
+    log_file = os.path.join(log_dir, log_filename)
 
-# Log dosyası ismi
-log_file = os.path.join(log_dir, "app.log")
+    logger = logging.getLogger(name)
+    logger.setLevel(level)
 
-# Logger oluştur
-logger = logging.getLogger("luvira")
-logger.setLevel(logging.DEBUG)  # DEBUG seviyesinde her şeyi yakala
+    # Dosyaya yazma
+    fh = logging.FileHandler(log_file, encoding="utf-8")
+    fh.setLevel(level)
+    formatter = logging.Formatter('%(asctime)s | %(levelname)s | %(message)s')
+    fh.setFormatter(formatter)
+    logger.addHandler(fh)
 
-# Dosyaya yazan handler
-file_handler = logging.FileHandler(log_file, encoding="utf-8")
-file_handler.setLevel(logging.DEBUG)
+    return logger
 
-# Format belirle
-formatter = logging.Formatter('%(asctime)s | %(levelname)s | %(message)s')
-file_handler.setFormatter(formatter)
+# Ana log (her şey burada da olabilir)
+logger = create_logger("main", "app.log")
 
-# Terminale de yaz
-console_handler = logging.StreamHandler()
-console_handler.setLevel(logging.ERROR)  # Sadece ERROR ve üstü terminale
-
-# Logger'a ekle
-logger.addHandler(file_handler)
-logger.addHandler(console_handler)
+# Alt loglar
+csp_logger = create_logger("csp", "csp.log")
+media_logger = create_logger("media", "media.log")
