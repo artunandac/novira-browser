@@ -1,5 +1,5 @@
 import sys
-from PyQt5.QtWidgets import QApplication, QMainWindow, QVBoxLayout, QWidget
+from PyQt5.QtWidgets import QApplication, QMainWindow, QVBoxLayout, QWidget,QHBoxLayout, QPushButton
 from browser.tabmanager import TabManager  
 from browser.layout import BrowserWindow
 
@@ -15,10 +15,21 @@ class MainWindow(QMainWindow):
         self.setWindowTitle("Novira Browser")
 
         central = QWidget()
-        layout = QVBoxLayout(central)
+        main_layout = QVBoxLayout(central)
+        
+        # top_layout = QHBoxLayout()
 
+        # self.tabs = TabManager()
+        # add_tab_button = QPushButton("➕")
+        # add_tab_button.setFixedWidth(30)
+        # add_tab_button.clicked.connect(self.tabs.add_new_tab)
+
+        # top_layout.addWidget(self.tabs)
+        # top_layout.addWidget(add_tab_button)
+
+        # main_layout.addLayout(top_layout)
         self.tabs = TabManager()
-        layout.addWidget(self.tabs)
+        main_layout.addWidget(self.tabs)
 
         self.setCentralWidget(central)
 

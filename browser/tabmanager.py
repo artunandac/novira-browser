@@ -1,4 +1,4 @@
-from PyQt5.QtWidgets import QTabWidget
+from PyQt5.QtWidgets import QTabWidget, QApplication, QPushButton
 from PyQt5.QtCore import pyqtSlot, QUrl
 from browser.webview import WebView  # senin mevcut custom WebView sınıfın
 
@@ -11,6 +11,10 @@ class TabManager(QTabWidget):
         self.setTabsClosable(True)
         self.tabCloseRequested.connect(self.close_tab)
         self.currentChanged.connect(self.on_tab_changed)
+        self.new_tab_button = QPushButton("➕")
+        self.new_tab_button.setFixedSize(24, 24)
+        self.new_tab_button.clicked.connect(self.add_new_tab)
+        self.setCornerWidget(self.new_tab_button)
 
         # İlk sekmeyi aç
         settings = load_settings()
@@ -43,3 +47,6 @@ class TabManager(QTabWidget):
         if widget:
             widget.deleteLater()
         self.removeTab(index)
+
+        if self.count() == 0 and self.parent():
+            QApplication.quit()

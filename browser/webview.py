@@ -15,10 +15,13 @@ class CustomPage(QWebEnginePage):
 
         # Filtreleme ve yönlendirme
         if "Content Security Policy" in msg:
+            print("CSP ERROR")
             csp_logger.warning(log_message)
         elif "FFmpegDemuxer" in msg or "pipeline_error" in msg:
+            print("MEDIA ERROR")
             media_logger.warning(log_message)
         else:
+            print("GENERAL ERROR")
             logger.warning(log_message)
 
 class WebView(QWebEngineView):

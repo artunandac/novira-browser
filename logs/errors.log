@@ -3,3 +3,40 @@ Traceback (most recent call last):
     sys.exit(app.exec_())
              ^^^^^^^^^^^
 KeyboardInterrupt
+Traceback (most recent call last):
+  File "/media/artun/Yeni Birim/python/novira/main.py", line 28, in <module>
+    top_layout.addWidget(add_tab_button)
+     ^^^^^^^^^^^
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/media/artun/Yeni Birim/python/novira/main.py", line 35, in <module>
+    window = MainWindow()
+             ^^^^^^^^^^^^
+  File "/media/artun/Yeni Birim/python/novira/main.py", line 20, in __init__
+    top_layout = QHBoxLayout()
+                 ^^^^^^^^^^^
+NameError: name 'QHBoxLayout' is not defined. Did you mean: 'QVBoxLayout'?
+Traceback (most recent call last):
+  File "/media/artun/Yeni Birim/python/novira/main.py", line 35, in <module>
+    window = MainWindow()
+             ^^^^^^^^^^^^
+  File "/media/artun/Yeni Birim/python/novira/main.py", line 20, in __init__
+    top_layout = QHBoxLayout()
+                 ^^^^^^^^^^^
+NameError: name 'QHBoxLayout' is not defined. Did you mean: 'QVBoxLayout'?
+Traceback (most recent call last):
+  File "/media/artun/Yeni Birim/python/novira/main.py", line 35, in <module>
+    window = MainWindow()
+             ^^^^^^^^^^^^
+  File "/media/artun/Yeni Birim/python/novira/main.py", line 20, in __init__
+    top_layout = QHBoxLayout()
+                 ^^^^^^^^^^^
+NameError: name 'QHBoxLayout' is not defined. Did you mean: 'QVBoxLayout'?
+Traceback (most recent call last):
+  File "/media/artun/Yeni Birim/python/novira/main.py", line 35, in <module>
+    window = MainWindow()
+             ^^^^^^^^^^^^
+  File "/media/artun/Yeni Birim/python/novira/main.py", line 30, in __init__
+    main_layout.addLayout(top_layout)
+    ^^^^^^^^^^^
+NameError: name 'main_layout' is not defined. Did you mean: 'top_layout'?
