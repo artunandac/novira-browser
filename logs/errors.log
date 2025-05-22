@@ -40,3 +40,83 @@ Traceback (most recent call last):
     main_layout.addLayout(top_layout)
     ^^^^^^^^^^^
 NameError: name 'main_layout' is not defined. Did you mean: 'top_layout'?
+Traceback (most recent call last):
+  File "/media/artun/Yeni Birim/python/novira/main.py", line 39, in <module>
+    sys.exit(app.exec_())
+             ^^^^^^^^^^^
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/media/artun/Yeni Birim/python/novira/main.py", line 37, in <module>
+    window = MainWindow()
+             ^^^^^^^^^^^^
+  File "/media/artun/Yeni Birim/python/novira/main.py", line 31, in __init__
+    self.tabs = TabManager()
+                ^^^^^^^^^^^^
+  File "/media/artun/Yeni Birim/python/novira/browser/tabmanager.py", line 20, in __init__
+    self.new_tab_button.setStyleSheet(style)
+                                      ^^^^^
+NameError: name 'style' is not defined. Did you mean: 'self.style'?
+Traceback (most recent call last):
+  File "/media/artun/Yeni Birim/python/novira/main.py", line 37, in <module>
+    window = MainWindow()
+             ^^^^^^^^^^^^
+  File "/media/artun/Yeni Birim/python/novira/main.py", line 31, in __init__
+    self.tabs = TabManager()
+                ^^^^^^^^^^^^
+  File "/media/artun/Yeni Birim/python/novira/browser/tabmanager.py", line 20, in __init__
+    self.new_tab_button.setStyleSheet(style)
+                                      ^^^^^
+NameError: name 'style' is not defined. Did you mean: 'self.style'?
+Traceback (most recent call last):
+  File "/media/artun/Yeni Birim/python/novira/main.py", line 37, in <module>
+    window = MainWindow()
+             ^^^^^^^^^^^^
+  File "/media/artun/Yeni Birim/python/novira/main.py", line 31, in __init__
+    self.tabs = TabManager()
+                ^^^^^^^^^^^^
+  File "/media/artun/Yeni Birim/python/novira/browser/tabmanager.py", line 37, in __init__
+    self.menu_button.setMenu(self.build_menu())  # Menüyi bağla
+                             ^^^^^^^^^^^^^^^^^
+  File "/media/artun/Yeni Birim/python/novira/browser/tabmanager.py", line 92, in build_menu
+    action_settings.triggered.connect(self.open_settings)
+                                      ^^^^^^^^^^^^^^^^^^
+AttributeError: 'TabManager' object has no attribute 'open_settings'
+Traceback (most recent call last):
+  File "/media/artun/Yeni Birim/python/novira/main.py", line 37, in <module>
+    window = MainWindow()
+             ^^^^^^^^^^^^
+  File "/media/artun/Yeni Birim/python/novira/main.py", line 31, in __init__
+    self.tabs = TabManager()
+                ^^^^^^^^^^^^
+  File "/media/artun/Yeni Birim/python/novira/browser/tabmanager.py", line 37, in __init__
+    self.menu_button.setMenu(self.build_menu())  # Menüyi bağla
+                             ^^^^^^^^^^^^^^^^^
+  File "/media/artun/Yeni Birim/python/novira/browser/tabmanager.py", line 111, in build_menu
+    menu.addAction(self.create_zoom_widget())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/artun/Yeni Birim/python/novira/browser/tabmanager.py", line 122, in create_zoom_widget
+    self.zoom_label = QLabel("100%")
+                      ^^^^^^
+NameError: name 'QLabel' is not defined
+Traceback (most recent call last):
+  File "/media/artun/Yeni Birim/python/novira/main.py", line 37, in <module>
+    window = MainWindow()
+             ^^^^^^^^^^^^
+  File "/media/artun/Yeni Birim/python/novira/main.py", line 31, in __init__
+    self.tabs = TabManager()
+                ^^^^^^^^^^^^
+  File "/media/artun/Yeni Birim/python/novira/browser/tabmanager.py", line 37, in __init__
+    self.menu_button.setMenu(self.build_menu())  # Menüyi bağla
+                             ^^^^^^^^^^^^^^^^^
+  File "/media/artun/Yeni Birim/python/novira/browser/tabmanager.py", line 111, in build_menu
+    menu.addAction(self.create_zoom_widget())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/artun/Yeni Birim/python/novira/browser/tabmanager.py", line 124, in create_zoom_widget
+    self.zoom_label.setAlignment(Qt.AlignCenter)
+                                 ^^
+NameError: name 'Qt' is not defined
+Traceback (most recent call last):
+  File "/media/artun/Yeni Birim/python/novira/main.py", line 39, in <module>
+    sys.exit(app.exec_())
+             ^^^^^^^^^^^
+KeyboardInterrupt

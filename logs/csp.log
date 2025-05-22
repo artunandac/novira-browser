@@ -156,3 +156,35 @@
 
 2025-05-14 15:21:10,108 | WARNING | JS Console [Error] in https://duckduckgo.com/_next/static/chunks/main-6185e562568e6345.js:1 → Refused to prefetch content from 'https://duckduckgo.com/_next/static/chunks/pages/about-bea36d7fb357ae3d.js' because it violates the following Content Security Policy directive: "default-src 'none' ". Note that 'prefetch-src' was not explicitly set, so 'default-src' is used as a fallback.
 
+2025-05-22 14:14:33,183 | WARNING | JS Console [Error] in https://duckduckgo.com/_next/static/chunks/main-6185e562568e6345.js:1 → Refused to prefetch content from 'https://duckduckgo.com/_next/static/chunks/6203-28d2586537610bd6.js' because it violates the following Content Security Policy directive: "default-src 'none' ". Note that 'prefetch-src' was not explicitly set, so 'default-src' is used as a fallback.
+
+2025-05-22 14:14:33,184 | WARNING | JS Console [Error] in https://duckduckgo.com/_next/static/chunks/main-6185e562568e6345.js:1 → Refused to prefetch content from 'https://duckduckgo.com/_next/static/chunks/pages/about-b1f246bfbdc9998b.js' because it violates the following Content Security Policy directive: "default-src 'none' ". Note that 'prefetch-src' was not explicitly set, so 'default-src' is used as a fallback.
+
+2025-05-22 14:31:18,238 | WARNING | JS Console [Error] in https://duckduckgo.com/_next/static/chunks/main-6185e562568e6345.js:1 → Refused to prefetch content from 'https://duckduckgo.com/_next/static/chunks/6203-28d2586537610bd6.js' because it violates the following Content Security Policy directive: "default-src 'none' ". Note that 'prefetch-src' was not explicitly set, so 'default-src' is used as a fallback.
+
+2025-05-22 14:31:18,239 | WARNING | JS Console [Error] in https://duckduckgo.com/_next/static/chunks/main-6185e562568e6345.js:1 → Refused to prefetch content from 'https://duckduckgo.com/_next/static/chunks/pages/about-b1f246bfbdc9998b.js' because it violates the following Content Security Policy directive: "default-src 'none' ". Note that 'prefetch-src' was not explicitly set, so 'default-src' is used as a fallback.
+
+2025-05-22 14:31:27,098 | WARNING | JS Console [Error] in https://duckduckgo.com/_next/static/chunks/main-6185e562568e6345.js:1 → Refused to prefetch content from 'https://duckduckgo.com/_next/static/chunks/6203-28d2586537610bd6.js' because it violates the following Content Security Policy directive: "default-src 'none' ". Note that 'prefetch-src' was not explicitly set, so 'default-src' is used as a fallback.
+
+2025-05-22 14:31:27,099 | WARNING | JS Console [Error] in https://duckduckgo.com/_next/static/chunks/main-6185e562568e6345.js:1 → Refused to prefetch content from 'https://duckduckgo.com/_next/static/chunks/pages/about-b1f246bfbdc9998b.js' because it violates the following Content Security Policy directive: "default-src 'none' ". Note that 'prefetch-src' was not explicitly set, so 'default-src' is used as a fallback.
+
+2025-05-22 14:34:54,783 | WARNING | JS Console [Error] in https://duckduckgo.com/_next/static/chunks/main-6185e562568e6345.js:1 → Refused to prefetch content from 'https://duckduckgo.com/_next/static/chunks/6203-28d2586537610bd6.js' because it violates the following Content Security Policy directive: "default-src 'none' ". Note that 'prefetch-src' was not explicitly set, so 'default-src' is used as a fallback.
+
+2025-05-22 14:34:54,784 | WARNING | JS Console [Error] in https://duckduckgo.com/_next/static/chunks/main-6185e562568e6345.js:1 → Refused to prefetch content from 'https://duckduckgo.com/_next/static/chunks/pages/about-b1f246bfbdc9998b.js' because it violates the following Content Security Policy directive: "default-src 'none' ". Note that 'prefetch-src' was not explicitly set, so 'default-src' is used as a fallback.
+
+2025-05-22 14:38:06,441 | WARNING | JS Console [Error] in https://duckduckgo.com/_next/static/chunks/main-6185e562568e6345.js:1 → Refused to prefetch content from 'https://duckduckgo.com/_next/static/chunks/6203-28d2586537610bd6.js' because it violates the following Content Security Policy directive: "default-src 'none' ". Note that 'prefetch-src' was not explicitly set, so 'default-src' is used as a fallback.
+
+2025-05-22 14:38:06,442 | WARNING | JS Console [Error] in https://duckduckgo.com/_next/static/chunks/main-6185e562568e6345.js:1 → Refused to prefetch content from 'https://duckduckgo.com/_next/static/chunks/pages/about-b1f246bfbdc9998b.js' because it violates the following Content Security Policy directive: "default-src 'none' ". Note that 'prefetch-src' was not explicitly set, so 'default-src' is used as a fallback.
+
+2025-05-22 14:38:35,580 | WARNING | JS Console [Error] in https://duckduckgo.com/dist/wpm.main.5f75dbaffa8a625ffec0.js:1 → Refused to prefetch content from 'https://duckduckgo.com/dist/wpm.3359.0c3e0fbf9f8cff52c9ab.js' because it violates the following Content Security Policy directive: "default-src 'none' ". Note that 'prefetch-src' was not explicitly set, so 'default-src' is used as a fallback.
+
+2025-05-22 14:38:35,581 | WARNING | JS Console [Error] in https://duckduckgo.com/dist/wpm.main.5f75dbaffa8a625ffec0.js:1 → Refused to prefetch content from 'https://duckduckgo.com/dist/wpm.1619.ea48354a2359f567744b.js' because it violates the following Content Security Policy directive: "default-src 'none' ". Note that 'prefetch-src' was not explicitly set, so 'default-src' is used as a fallback.
+
+2025-05-22 14:38:35,582 | WARNING | JS Console [Error] in https://duckduckgo.com/dist/wpm.main.5f75dbaffa8a625ffec0.js:1 → Refused to prefetch content from 'https://duckduckgo.com/dist/wpm.2748.5d1a861674d9b153e3af.js' because it violates the following Content Security Policy directive: "default-src 'none' ". Note that 'prefetch-src' was not explicitly set, so 'default-src' is used as a fallback.
+
+2025-05-22 14:38:35,582 | WARNING | JS Console [Error] in https://duckduckgo.com/dist/wpm.main.5f75dbaffa8a625ffec0.js:1 → Refused to prefetch content from 'https://duckduckgo.com/dist/wpm.chat.004731d898aa09fa5628.js' because it violates the following Content Security Policy directive: "default-src 'none' ". Note that 'prefetch-src' was not explicitly set, so 'default-src' is used as a fallback.
+
+2025-05-22 14:38:35,583 | WARNING | JS Console [Error] in https://duckduckgo.com/dist/wpm.main.5f75dbaffa8a625ffec0.js:1 → Refused to prefetch content from 'https://duckduckgo.com/dist/wpm.images-vertical.02250dfc177e8ff6cf24.js' because it violates the following Content Security Policy directive: "default-src 'none' ". Note that 'prefetch-src' was not explicitly set, so 'default-src' is used as a fallback.
+
+2025-05-22 14:38:35,584 | WARNING | JS Console [Error] in https://duckduckgo.com/dist/wpm.main.5f75dbaffa8a625ffec0.js:1 → Refused to prefetch content from 'https://duckduckgo.com/dist/wpm.shopping-vertical.486d4a1245e284f856cb.js' because it violates the following Content Security Policy directive: "default-src 'none' ". Note that 'prefetch-src' was not explicitly set, so 'default-src' is used as a fallback.
+
